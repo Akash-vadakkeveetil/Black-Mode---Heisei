@@ -18,13 +18,15 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .sidebar .header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 20px; /* Space between header and navigation */
+    padding: 20px 0; /* Optional padding to give space around the header */
+    width: 100%; /* Ensure the header takes the full width of the sidebar */
 }
 
 .sidebar .header h1 {
